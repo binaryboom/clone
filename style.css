@@ -150,12 +150,15 @@ a {
     margin: 1rem;
     border-radius: 1rem;
     padding: 10px;
-}
-.pl-button:hover,
-.pod-button:hover{
     cursor: pointer;
-    transform: scale(2);
 }
+
+/* .pl-button:hover,
+.pod-button:hover{
+} */
+::-webkit-scrollbar {
+    width: 1px; /* Width of the entire scrollbar */
+  }
 
 .otherOptions {
     margin-top: 30px;
@@ -225,6 +228,8 @@ a {
     /* margin: 1rem; */
     border-radius: 1rem;
     padding: 8px;
+    margin-right: 0px;
+    
 
 }
 .navButton3{
@@ -237,6 +242,10 @@ a {
     border-radius: 1rem;
     padding: 8px;
 
+}
+.navButton:hover,.navButton2:hover,.navButton3:hover,.p-icon3:hover{
+    transition: 1s ease-in-out;
+    transform: scale(1.2);
 }
 @media (max-width:1000px) {
     .hide{
@@ -433,5 +442,5 @@ margin-right: 20px;
 
 .ctrl-icons i{
    margin: 10px;
-   margin-top: 20px;
+   margin-top: 30px;
 }
